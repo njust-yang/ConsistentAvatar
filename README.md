@@ -14,8 +14,8 @@ Before preparing the data for training, make sure to download the DECA source fi
 3. Download the FLAME texture space and extract [FLAME_texture.npz](https://flame.is.tue.mpg.de/download.php)
 4. Download the other files listed below from [DECA's Data Page](https://github.com/YadiraF/DECA/tree/master/data) and put them also in the data/ folder:<br>
 `
-data/
-  deca_model.tar <br>
+data/ \\
+  deca_model.tar \\
   generic_model.pkl <br>
   FLAME_texture.npz <br>
   fixed_displacement_256.npy <br>
