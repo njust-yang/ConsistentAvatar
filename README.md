@@ -16,8 +16,8 @@ Before preparing the data for training, make sure to download the DECA source fi
 `
 data/ \\
   deca_model.tar \\
-  generic_model.pkl <br>
-  FLAME_texture.npz <br>
+  generic_model.pkl<br>
+  FLAME_texture.npz<br>
   fixed_displacement_256.npy <br>
   head_template.obj <br>
   landmark_embedding.npy <br>
