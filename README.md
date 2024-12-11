@@ -1,12 +1,12 @@
 # ConsistentAvatar
 The code will be uploaded and updated gradually in the near future.
-
+Thanks to [Diffusionrig](https://github.com/adobe-research/diffusion-rig/tree/main) for the excellent work; our code is based on modifications of it.
 ## Setup & Preparation
 ## Environment Setup
 ```bash
-conda create -n consistentavatar python=3.8 <br>
-conda activate consistentavatar <br>
-pip install -r requirement.txt <br>
+conda create -n consistentavatar python=3.8
+conda activate consistentavatar
+pip install -r requirement.txt
 ```
 ## DECA Setup
 Before preparing the data for training, make sure to download the DECA source files and checkpoints to set up the environment (you'll need to create an account to access the FLAME resources):
