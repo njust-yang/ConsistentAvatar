@@ -134,12 +134,9 @@ class TrainLoop:
             batch = next(self.data)
 
             image = batch['image']
-            mask = batch['mask']
+            tsd = batch['tsd']
             rendered, normal, albedo = batch['rendered'], batch['normal'], batch['albedo']
-            #print(mask.shape)
-            #print(normal.shape)
-            #print(albedo.shape)
-            physic_cond = th.cat([mask, normal, albedo], dim=1)
+            physic_cond = th.cat([tsd, normal, albedo], dim=1)
 
             self.run_step(image, physic_cond)
 
